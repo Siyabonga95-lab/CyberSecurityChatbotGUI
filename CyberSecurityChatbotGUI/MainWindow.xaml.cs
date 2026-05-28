@@ -110,7 +110,7 @@ namespace CyberSecurityChatbot_1
             AddBotMessageInstant(
                 "╔════════════════════════════════════╗\n" +
                 "║     SIYA'S CYBER CHATBOT           ║\n" +
-                "║     Stay Safe Online! 🛡️            ║\n" +
+                "║     Stay Safe Online! 🛡️           ║\n" +
                 "╚════════════════════════════════════╝\n\n" +
                 "Welcome! I'm here to help you stay safe online.\n\n" +
                 "Before we start — what's your name?"
@@ -133,7 +133,7 @@ namespace CyberSecurityChatbot_1
         }
 
         // ================================================================
-        // SPINNER TIMER TICK — cycles ◐ ◓ ◑ ◒ every 200 ms
+        // This is the SPINNER TIMER TICK — cycles ◐ ◓ ◑ ◒ every 200 ms
         //
         // The modulo (%) operator wraps the frame back to 0 after frame 3.
         // Example: 0 → 1 → 2 → 3 → 0 → 1 → 2 → 3 → ...
@@ -147,7 +147,7 @@ namespace CyberSecurityChatbot_1
         }
 
         // ================================================================
-        // TYPING TIMER TICK — reveals one more character every 25 ms
+        //This is TYPING TIMER TICK — reveals one more character every 25 ms
         //
         // _typingIndex tracks how many characters have been shown.
         // Each tick we increase it by 1 and update the TextBlock text.
