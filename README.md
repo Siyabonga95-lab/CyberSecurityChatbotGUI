@@ -4,12 +4,12 @@ A **Windows Presentation Foundation (WPF)** cybersecurity awareness chatbot buil
 
 ---
 
-## 📸 Preview
+##  Preview
 
 ```
 ╔════════════════════════════════════╗
 ║     SIYA'S CYBER CHATBOT           ║
-║     Stay Safe Online! 🛡️            ║
+║     Stay Safe Online!              ║
 ╚════════════════════════════════════╝
 ```
 
@@ -52,7 +52,7 @@ Follow-up phrases keep the conversation going without restarting:
 - `"explain more"` / `"more details"` → continues current subject
 
 ###  Memory & Recall
-Say `"I'm interested in privacy"` and the bot **remembers your favourite topic** for the whole session. It shows a memory indicator in the header (`🧠 Remembering: privacy`) and personalises future responses around it.
+Say `"I'm interested in privacy"` and the bot **remembers your favourite topic** for the whole session. It shows a memory indicator in the header (` Remembering: privacy`) and personalises future responses around it.
 
 ###  Sentiment Detection
 The bot detects emotions and responds empathetically **before** giving a tip — so the user never has to ask twice:
