@@ -417,7 +417,7 @@ namespace CyberSecurityChatbot_1
         // Creates a bot bubble with an EMPTY TextBlock (_typingTextBlock).
         // The TypingTimer_Tick method fills it in one character at a time.
         //
-        // Why start empty?
+        // Why I started empty?
         //   Because we need a reference to the TextBlock so the timer
         //   can update it. We store it in _typingTextBlock and set
         //   _fullResponseText so the timer knows what to type.
