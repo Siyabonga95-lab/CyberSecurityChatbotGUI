@@ -4,7 +4,7 @@ namespace CyberSecurityChatbot_1
 {
     // ============================================================
     // USER CLASS - Stores information about the person using the chatbot
-    // PART 2 UPGRADE: Added FavouriteTopic and LastTopic for Memory & Recall (Requirement 5)
+    // PART 2 UPGRADE: Added Favourite Topic and LastTopic for Memory & Recall (Requirement 5)
     // ============================================================
     public class User
     {

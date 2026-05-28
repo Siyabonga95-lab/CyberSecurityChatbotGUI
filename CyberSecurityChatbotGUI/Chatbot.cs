@@ -5,9 +5,9 @@ using System.Collections.Generic;
 namespace CyberSecurityChatbot_1
 {
     // ============================================================
-    // CHATBOT CLASS - The brain of the chatbot
+    // CHATBOT CLASS - This is the brain of the chatbot
     //
-    // PART 2 UPGRADES:
+    // These are the Requirements for my PART 2:
     //   Requirement 2 - Keyword Recognition  (enhanced with more keywords)
     //   Requirement 3 - Random Responses     (arrays of varied responses)
     //   Requirement 4 - Conversation Flow    (follow-up / "tell me more")
@@ -21,8 +21,6 @@ namespace CyberSecurityChatbot_1
         // --------------------------------------------------------
         // REQUIREMENT 8 - CODE OPTIMISATION
         // I use a Dictionary<string, string[]> to store random tip arrays
-        // for each topic. This is cleaner than huge if-else blocks and
-        // makes the code easy to expand in Part 3.
         // Key   = topic name (e.g. "phishing")
         // Value = string array of different tip responses
         // --------------------------------------------------------
