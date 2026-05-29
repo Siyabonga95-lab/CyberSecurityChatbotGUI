@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CyberSecurityChatbot_1
+namespace CyberSecurityChatbotGUI
 {
     // ============================================================
     // USER CLASS

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CyberSecurityChatbot_1
+namespace CyberSecurityChatbotGUI
 {
     // ============================================================
     // CHATBOT CLASS — The brain of the cybersecurity chatbot
