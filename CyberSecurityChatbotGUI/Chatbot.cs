@@ -6,7 +6,7 @@ namespace CyberSecurityChatbotGUI
     // ============================================================
     // CHATBOT CLASS — The brain of the cybersecurity chatbot
     //
-    // RUBRIC REQUIREMENTS COVERED:
+    // REQUIREMENTS COVERED:
     //   Req 2  — Keyword Recognition   : 6+ topics, natural language input
     //   Req 3  — Random Responses      : Dictionary<string,string[]> + Random
     //   Req 4  — Conversation Flow     : "tell me more", "explain more", follow-ups
