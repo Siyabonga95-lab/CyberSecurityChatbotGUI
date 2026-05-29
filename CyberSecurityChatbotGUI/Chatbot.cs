@@ -471,10 +471,10 @@ namespace CyberSecurityChatbotGUI
             if (msg.Contains("example") || msg.Contains("show me"))
             {
                 return $"Here are real phishing examples {name}:\n\n" +
-                       "🚨 Fake Bank: 'URGENT! Your account is locked! Click here to verify'\n" +
-                       "🚨 Prize Scam: 'You won R10,000! Send your bank details to claim'\n" +
-                       "🚨 Fake Delivery: 'Your package is waiting. Track here: bit.ly/...'\n" +
-                       "🚨 Netflix: 'Your account is suspended. Update payment now'\n\n" +
+                       " Fake Bank: 'URGENT! Your account is locked! Click here to verify'\n" +
+                       " Prize Scam: 'You won R10,000! Send your bank details to claim'\n" +
+                       " Fake Delivery: 'Your package is waiting. Track here: bit.ly/...'\n" +
+                       " Netflix: 'Your account is suspended. Update payment now'\n\n" +
                        "Red flags: urgent language, links, requests for personal info!";
             }
             // Default — random tip
@@ -498,12 +498,12 @@ namespace CyberSecurityChatbotGUI
             if (msg.Contains("create") || msg.Contains("make") || msg.Contains("strong") || msg.Contains("how to"))
             {
                 return $"Let's make you a password superhero {name}! 🦸\n\nHOW TO CREATE A STRONG PASSWORD:\n\n" +
-                       "✅ Make it LONG — 12+ characters minimum\n" +
-                       "✅ Mix it UP — CAPITALS, lowercase, numbers, symbols\n" +
-                       "✅ Use a PASSPHRASE — 'Blue-Horse-Sunshine-Rain!'\n" +
-                       "✅ Make it UNIQUE — different password for every account\n\n" +
-                       "❌ BAD: 'password123' (cracked in seconds)\n" +
-                       "✅ GOOD: 'MyD0g!sC00l2024@'";
+                       " Make it LONG — 12+ characters minimum\n" +
+                       " Mix it UP — CAPITALS, lowercase, numbers, symbols\n" +
+                       " Use a PASSPHRASE — 'Blue-Horse-Sunshine-Rain!'\n" +
+                       " Make it UNIQUE — different password for every account\n\n" +
+                       " BAD: 'password123' (cracked in seconds)\n" +
+                       " GOOD: 'MyD0g!sC00l2024@'";
             }
             if (msg.Contains("2fa") || msg.Contains("two factor") || msg.Contains("two-factor"))
             {
@@ -652,17 +652,17 @@ namespace CyberSecurityChatbotGUI
             if (msg.Contains("where") || (msg.Contains("report") && msg.Contains("phish")))
             {
                 return $"You're doing the right thing {name}! 📋\n\nWHERE TO REPORT IN SOUTH AFRICA:\n" +
-                       "📧 Government: report@cybersecurity.gov.za\n" +
-                       "🏦 Your Bank — call their fraud department immediately\n" +
-                       "📞 SABRIC (banking scams): 0861 022 339\n\n" +
+                       " Government: report@cybersecurity.gov.za\n" +
+                       " Your Bank — call their fraud department immediately\n" +
+                       " SABRIC (banking scams): 0861 022 339\n\n" +
                        "Keep the evidence — don't delete the emails!";
             }
             if (msg.Contains("saps") || msg.Contains("police"))
             {
                 return $"Reporting to SAPS is important {name}! 🚔\n\n" +
-                       "📞 Crime Stop: 0860 010 111 (24/7, can be anonymous)\n" +
-                       "🏢 Visit your local police station — ask for the Cybercrime Unit\n" +
-                       "📂 Bring ALL evidence: emails, screenshots, bank statements\n\n" +
+                       " Crime Stop: 0860 010 111 (24/7, can be anonymous)\n" +
+                       " Visit your local police station — ask for the Cybercrime Unit\n" +
+                       " Bring ALL evidence: emails, screenshots, bank statements\n\n" +
                        "They'll give you a case number. Don't be scared — they're there to help!";
             }
             if (msg.Contains("scammed") || msg.Contains("victim") || msg.Contains("what to do"))
@@ -690,9 +690,9 @@ namespace CyberSecurityChatbotGUI
                 return $"Great question {name}! 🛡️\n\n" +
                        "CYBERSECURITY is protecting yourself, your devices, and your information from " +
                        "online threats. It's like having:\n" +
-                       "🔒 A lock on your digital door (passwords)\n" +
-                       "👮 A security guard (antivirus)\n" +
-                       "📚 Training to spot danger (awareness — like what you're doing now!)\n\n" +
+                       " A lock on your digital door (passwords)\n" +
+                       " A security guard (antivirus)\n" +
+                       " Training to spot danger (awareness — like what you're doing now!)\n\n" +
                        "Want to learn WHY it's so important?";
             }
             if (msg.Contains("why") || msg.Contains("important") || msg.Contains("matter"))
@@ -700,20 +700,20 @@ namespace CyberSecurityChatbotGUI
                 return $"This is so important {name}! 🌍\n\n" +
                        "In South Africa, cyber attacks increased 200% recently!\n\n" +
                        "Cybersecurity protects:\n" +
-                       "💰 YOUR MONEY — bank accounts and cards\n" +
+                       " YOUR MONEY — bank accounts and cards\n" +
                        "🪪 YOUR IDENTITY — personal information\n" +
-                       "📱 YOUR DEVICES — computer and phone\n" +
-                       "📸 YOUR PRIVACY — photos and messages\n\n" +
+                       " YOUR DEVICES — computer and phone\n" +
+                       " YOUR PRIVACY — photos and messages\n\n" +
                        "By learning this, you're already safer than most people!";
             }
             if (msg.Contains("threats") || msg.Contains("types") || msg.Contains("common"))
             {
                 return $"Let me show you what to watch for {name}! 👀\n\nCOMMON CYBER THREATS:\n" +
-                       "🎣 PHISHING — Fake emails that steal info\n" +
-                       "🦠 MALWARE — Viruses on your device\n" +
-                       "💰 RANSOMWARE — Hackers lock your files for payment\n" +
+                       " PHISHING — Fake emails that steal info\n" +
+                       " MALWARE — Viruses on your device\n" +
+                       " RANSOMWARE — Hackers lock your files for payment\n" +
                        "🪪 IDENTITY THEFT — Stealing your personal info\n" +
-                       "🎭 SOCIAL ENGINEERING — Psychologically tricking you\n\n" +
+                       " SOCIAL ENGINEERING — Psychologically tricking you\n\n" +
                        "Now you know what to watch for! Type any topic to learn more.";
             }
             return $"I'd love to teach you about cybersecurity {name}! 🛡️\n\n" +
