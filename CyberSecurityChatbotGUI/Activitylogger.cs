@@ -5,7 +5,7 @@ using System.Linq;
 namespace CyberSecurityChatbotGUI
 {
     // ============================================================
-    // ACTIVITY LOGGER — Task 4 (10 marks)
+    // ACTIVITY LOGGER 
     //
     // Keeps a List<string> of every significant chatbot action.
     // Each entry includes a timestamp.

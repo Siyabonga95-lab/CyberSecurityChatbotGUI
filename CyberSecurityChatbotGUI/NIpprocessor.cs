@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 namespace CyberSecurityChatbotGUI
 {
     // ============================================================
-    // NLP PROCESSOR — Task 3 (10 marks)
+    // NLP PROCESSOR 
     //
     // Simulates Natural Language Processing using:
     //   1. Synonym dictionaries — maps many phrasings to one intent

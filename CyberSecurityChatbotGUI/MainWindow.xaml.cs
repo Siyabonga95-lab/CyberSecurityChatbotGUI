@@ -10,7 +10,7 @@ using System.Windows.Threading;
 namespace CyberSecurityChatbotGUI
 {
     // ================================================================
-    // MAINWINDOW CODE-BEHIND — Part 3 Enhanced
+    // MAINWINDOW CODE-BEHIND — Part 3 
     //
     // NEW IN PART 3 vs PART 2:
     //   - SidebarButton_Click handles Tasks, Quiz, Log sidebar buttons

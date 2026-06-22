@@ -16,7 +16,7 @@ namespace CyberSecurityChatbotGUI
     }
 
     // ============================================================
-    // QUIZ MANAGER — Task 2 (15 marks)
+    // QUIZ MANAGER 
     //
     // FEATURES:
     //   - 12 questions (rubric requires 10+)

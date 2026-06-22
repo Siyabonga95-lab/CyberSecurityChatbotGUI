@@ -5,7 +5,7 @@ using System.Text;
 namespace CyberSecurityChatbotGUI
 {
     // ============================================================
-    // CHATBOT CLASS — Enhanced for Part 3 POE
+    // CHATBOT CLASS Part 3 POE
     //
     // NEW IN PART 3:
     //   Task 1  — Task assistant commands (add/view/complete/delete)
@@ -581,23 +581,23 @@ namespace CyberSecurityChatbotGUI
         private string GetMenu()
         {
             return "═══ SIYA'S CYBER CHATBOT — FULL MENU ═══\n\n" +
-                   "📚 CYBERSECURITY TOPICS:\n" +
-                   "  🎣 Phishing      — Spot fake emails\n" +
-                   "  🔑 Passwords     — Create strong passwords\n" +
-                   "  🔒 Privacy       — Protect your information\n" +
-                   "  ⚠️  Scams         — Recognise and avoid scams\n" +
-                   "  🦠 Viruses       — Protect against malware\n" +
-                   "  🔗 Links         — Spot fake links\n" +
-                   "  🌐 Browsing      — Stay safe online\n" +
-                   "  📋 Reporting     — Report cybercrime in SA\n\n" +
-                   "📝 TASK ASSISTANT:\n" +
+                   " CYBERSECURITY TOPICS:\n" +
+                   "   Phishing      — Spot fake emails\n" +
+                   "   Passwords     — Create strong passwords\n" +
+                   "   Privacy       — Protect your information\n" +
+                   "   Scams         — Recognise and avoid scams\n" +
+                   "   Viruses       — Protect against malware\n" +
+                   "   Links         — Spot fake links\n" +
+                   "   Browsing      — Stay safe online\n" +
+                   "   Reporting     — Report cybercrime in SA\n\n" +
+                   " TASK ASSISTANT:\n" +
                    "  'add task [description]'    — Add a new task\n" +
                    "  'show tasks'                — View all tasks\n" +
                    "  'complete task [ID]'        — Mark a task done\n" +
                    "  'delete task [ID]'          — Remove a task\n\n" +
-                   "🧠 QUIZ:\n" +
+                   " QUIZ:\n" +
                    "  'start quiz'                — Test your knowledge!\n\n" +
-                   "📋 ACTIVITY LOG:\n" +
+                   " ACTIVITY LOG:\n" +
                    "  'show activity log'         — See recent actions\n" +
                    "  'show full log'             — See all actions\n\n" +
                    "Just type naturally — I'll understand! 😊";
