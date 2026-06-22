@@ -395,10 +395,10 @@ namespace CyberSecurityChatbotGUI
 
             _logger.Log($"Task added: '{rawTitle}' (ID: {newId})");
 
-            return $"✅ Task added successfully, {user.Name}!\n\n" +
-                   $"📝 Task: {rawTitle}\n" +
-                   $"📋 Description: {description}\n" +
-                   $"🆔 Task ID: {newId}\n\n" +
+            return $" Task added successfully, {user.Name}!\n\n" +
+                   $" Task: {rawTitle}\n" +
+                   $" Description: {description}\n" +
+                   $" Task ID: {newId}\n\n" +
                    "Would you like to set a reminder? (e.g. 'Yes, remind me in 3 days' or 'No')";
         }
 
@@ -431,7 +431,7 @@ namespace CyberSecurityChatbotGUI
             _logger.Log("Task list viewed");
 
             if (tasks.Count == 0)
-                return $"📋 You have no tasks yet, {name}!\n\n" +
+                return $" You have no tasks yet, {name}!\n\n" +
                        "Try: 'Add task - Enable two-factor authentication'\n" +
                        "Or: 'Add a task to review my privacy settings'";
 
