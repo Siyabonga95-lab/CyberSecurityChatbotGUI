@@ -38,7 +38,7 @@
         <!-- ── CLEAR BUTTON ────────────────────────────────────── -->
         <Style x:Key="ClearButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="#21262D"/>
-            <Setter Property="Foreground" Value="#8B949E"/>
+            <Setter Property="Foreground" Value="#FFBECAC8"/>
             <Setter Property="FontFamily" Value="Consolas"/>
             <Setter Property="FontSize" Value="12"/>
             <Setter Property="BorderThickness" Value="1"/>
@@ -76,7 +76,7 @@
         <!-- ── SIDEBAR FEATURE BUTTONS ──────────────────────────── -->
         <Style x:Key="SidebarButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="#161B22"/>
-            <Setter Property="Foreground" Value="#E6EDF3"/>
+            <Setter Property="Foreground" Value="#FF68EDD2"/>
             <Setter Property="FontFamily" Value="Consolas"/>
             <Setter Property="FontSize" Value="12"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -156,7 +156,7 @@
                 <StackPanel Grid.Column="0" Orientation="Vertical">
                     <TextBlock FontFamily="Consolas" FontSize="11" Foreground="#00C8FF"
                                LineHeight="16" xml:space="preserve">╔════════════════════════════════════════╗
-║     SIYA'S CYBER CHATBOT  — PART 3    ║
+║     SIYA'S CYBER CHATBOT  — PART 3     ║
 ║     Stay Safe Online! 🛡️               ║
 ╚════════════════════════════════════════╝</TextBlock>
                     <TextBlock Text="Your personal cybersecurity assistant — Tasks • Quiz • Activity Log"
