@@ -1,49 +1,37 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
 
-name: .NET
-name: .NET Framework CI
+name: .NET CI
 
 on:
-push:
+  push:
     branches: [ "master" ]
-    branches: ["master"]
-pull_request:
+  pull_request:
     branches: [ "master" ]
-    branches: ["master"]
 
 jobs:
-build:
+  build:
+    runs-on: windows-latest
 
-runs-on: windows-latest
-
-steps:
-- name: Checkout
-    - uses: actions/checkout@v4
-    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: '8.0.x'
+
     - name: Restore dependencies
-      run: dotnet restore
-      uses: actions/checkout@v4
+      run: dotnet restore CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj
 
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v2
+    - name: Build
+      run: dotnet build CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj --configuration Release --no-restore
 
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v2
-
-    - name: Restore packages
-      run: nuget restore CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj
-
-- name: Build
-      run: msbuild CyberSe
     - name: Test
-      run: dotnet test --no-build --verbosity normal
-      run: msbuild CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj /p:Configuration=Release
+      run: dotnet test CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj --configuration Release --no-build --verbosity normal
 
+    # Make sure this path correctly matches where your project outputs binaries
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
