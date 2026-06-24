@@ -2,29 +2,29 @@ name: .NET Framework CI
 
 on:
   push:
-    branches: ["master"]
+    branches: [ "master" ]
   pull_request:
-    branches: ["master"]
+    branches: [ "master" ]
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout
+    - name: Checkout repository
       uses: actions/checkout@v4
-
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v2
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
-    - name: Restore packages
-      run: nuget restore CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v2
+
+    - name: Restore NuGet packages
+      run: nuget restore CyberSecurityChatbotGUI.sln
 
     - name: Build
-      run: msbuild CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj /p:Configuration=Release
+      run: msbuild CyberSecurityChatbotGUI.sln /p:Configuration=Release
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
