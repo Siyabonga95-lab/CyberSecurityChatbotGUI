@@ -20,13 +20,11 @@ jobs:
     - name: Setup NuGet
       uses: NuGet/setup-nuget@v2
 
-    # This creates the local \packages\ folder that SQLite is looking for
     - name: Restore NuGet packages
-      run: nuget restore CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj
+      run: nuget restore CyberSecurityChatbotGUI.sln
 
-    # This properly resolves the .targets file and builds the legacy project
     - name: Build
-      run: msbuild CyberSecurityChatbotGUI/CyberSecurityChatbotGUI.csproj /p:Configuration=Release
+      run: msbuild CyberSecurityChatbotGUI.sln /p:Configuration=Release
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
